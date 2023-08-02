@@ -111,6 +111,15 @@
   display: block;
 }
 
+.top-arrow{
+  transition: 0.3s ease;
+}
+
+.top-header-item:hover .top-arrow{
+  transform: rotate(-180deg);
+}
+
+
 .dropdown-btn {
   text-decoration: none;
   border: 1px solid var(--secondry-color);
@@ -128,6 +137,9 @@
   background-color: var(--secondry-color);
   color: white;
 }
+
+
+
 
 /* bottom header */
 
@@ -155,6 +167,13 @@ margin-left: 0.5rem;
 
 }
 
+.nav-item:hover .top-arrow{
+  transform: rotate(-180deg);
+}
+
+
+
+
 /* bottom dropdowns */
  
 .apex-parent{
@@ -171,6 +190,9 @@ margin-left: 0.5rem;
 .apex-parent:hover .contaier-apex-dropdown{
   display: block;
 }
+
+
+
 
 /* nav link */
 .nav-link {

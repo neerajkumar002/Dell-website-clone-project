@@ -8,7 +8,7 @@
 
 :root {
   --light-gray: #636363;
-  --secondry-color:#0672CB;
+  --secondry-color: #0672CB;
 }
 
 .item-non-bullet {
@@ -78,8 +78,8 @@
 }
 
 .sign-in-dropdown {
-  width: 19rem;
-  height: 20.2rem;
+  width: 18rem;
+  height: 20.5rem;
   display: none;
   position: absolute;
   border: 1px solid rgb(220, 219, 219);
@@ -89,11 +89,13 @@
 }
 
 .sign-in-dropdown ul {
-  font-size: 0.9rem;
-  padding: 0.7rem 1rem;
+  font-size: 0.87rem;
+  padding: 0.7rem 0.71rem;
+ 
 }
+
 .sign-in-dropdown ul li {
-    margin-top: 0.2rem;
+  margin-top: 0.2rem;
 }
 
 .sign-in-dropdown p {
@@ -112,7 +114,7 @@
 .dropdown-btn {
   text-decoration: none;
   border: 1px solid var(--secondry-color);
-  width: 19rem;
+ 
   height: 2rem;
   display: flex;
   justify-content: center;
@@ -122,7 +124,192 @@
   color: var(--secondry-color);
 }
 
-.signin-btn{
-background-color: var(--secondry-color);
-color: white;
+.signin-btn {
+  background-color: var(--secondry-color);
+  color: white;
 }
+
+/* bottom header */
+
+.bottom-nav {
+  display: flex;
+  margin-left: 0.4rem;
+}
+
+ 
+.nav-item .link {
+  display: flex;
+  padding: 0.9rem 1rem;
+  color: var(--light-gray);
+  font-size: 0.9rem;
+
+}
+
+.nav-item:hover {
+  background-color: #e4e4e4;
+  border-bottom: 2px solid #636363;
+}
+
+.nav-item .link img {
+margin-left: 0.5rem;
+
+}
+
+/* bottom dropdowns */
+ 
+.apex-parent{
+  position: relative;
+}
+.contaier-apex-dropdown{
+  width: 15rem;
+  position: absolute;
+  border: 1px solid gray;
+  display: none;
+
+
+}
+.apex-parent:hover .contaier-apex-dropdown{
+  display: block;
+}
+
+/* nav link */
+.nav-link {
+ text-decoration: none;
+ display: flex;
+ justify-content: space-between;
+ padding: 0.6rem 0.6rem;
+ font-size: 0.9rem;
+ color: var(--light-gray);
+}
+ 
+.nav-link:hover{
+  background-color: #e4e4e4;
+
+}
+
+
+.apex-drop-first-parent{
+ position: relative;
+}
+
+
+.container-apex-dropdown-child{
+
+  width: 15rem;
+  height: 21.5rem;
+  background-color: #fbfbfb;
+  border: 1px solid gray;
+  left: 15rem;
+  top: 0;  
+
+}
+
+
+.apex-dropdown-first-child{
+
+  position: absolute;
+  display: none;
+  left: 15rem;
+  top: 0;
+  
+}
+
+ 
+
+.apex-dropdown-second-child{
+display: none;
+position: absolute;
+
+}
+.apex-drop-second-parent:hover .apex-dropdown-first-child{
+  display:block;
+}
+
+.apex-drop-third-parent:hover .apex-dropdown-second-child{
+  display: block;
+}
+
+
+.apex-dropdown-forth-child{
+  position: absolute;
+  display: none;
+}
+
+
+.apex-drop-forth-parent:hover .apex-dropdown-forth-child{
+  display: block;
+}
+
+
+.apex-dropdown-five-child{
+  position: absolute;
+  display: none;
+}
+
+.apex-drop-five-parent:hover .apex-dropdown-five-child{
+  display: block;
+}
+
+.apex-dropdown-six-child{
+  position: absolute;
+  display: none;
+}
+.apex-drop-six-parent:hover .apex-dropdown-six-child{
+  display: block;
+}
+.apex-dropdown-seven-child{
+  position: absolute;
+  display: none;
+}
+.apex-drop-seven-parent:hover .apex-dropdown-seven-child{
+  display: block;
+}
+
+
+/* product dropdown */
+.contaier-product-dropdown{
+  width: 15rem;
+  position: absolute;
+  border: 1px solid gray;
+  display: none;
+
+
+}
+.product-parent:hover .contaier-product-dropdown{
+  display: block;
+}
+
+.container-product-dropdown-child{
+  width: 15rem;
+  height:29.4rem;
+  background-color: #fbfbfb;
+  border: 1px solid gray;
+  left: 15rem;
+  top: 0;  
+
+}
+
+.product-first-parent{
+  position: relative;
+}
+
+.product-dropdown-first-child{
+  position: absolute;
+  display: none;
+}
+
+.product-drop-first-parent:hover .product-dropdown-first-child{
+  display: block;
+}
+
+.product-dropdown-second-child{
+  position: absolute;
+  display: none;
+}
+.product-drop-second-parent:hover .product-dropdown-second-child{
+  display: block;
+}
+
+
+
+

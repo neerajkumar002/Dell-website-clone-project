@@ -86,6 +86,8 @@
   right: 0;
   padding: 1rem;
   color: var(--light-gray);
+  z-index: 100;
+  background-color: white;
 }
 
 .sign-in-dropdown ul {
@@ -143,6 +145,14 @@
 
 /* bottom header */
 
+
+.navigation{
+  border-bottom: 2px solid #d7d6d6;
+ 
+
+}
+
+
 .bottom-nav {
   display: flex;
   margin-left: 0.4rem;
@@ -154,12 +164,16 @@
   padding: 0.9rem 1rem;
   color: var(--light-gray);
   font-size: 0.9rem;
-
+ 
+  
+}
+.nav-item{
+border-bottom: 3px solid transparent;
 }
 
 .nav-item:hover {
   background-color: #e4e4e4;
-  border-bottom: 2px solid #636363;
+  border-bottom: 2px solid var(--light-gray);
 }
 
 .nav-item .link img {
@@ -175,6 +189,8 @@ margin-left: 0.5rem;
 
 
 /* bottom dropdowns */
+
+
  
 .apex-parent{
   position: relative;
@@ -184,7 +200,8 @@ margin-left: 0.5rem;
   position: absolute;
   border: 1px solid gray;
   display: none;
-
+  margin-top: 0.2rem; 
+  background-color: white;
 
 }
 .apex-parent:hover .contaier-apex-dropdown{
@@ -201,7 +218,7 @@ margin-left: 0.5rem;
  justify-content: space-between;
  padding: 0.6rem 0.6rem;
  font-size: 0.9rem;
- color: var(--light-gray);
+  
 }
  
 .nav-link:hover{
@@ -294,6 +311,8 @@ position: absolute;
   position: absolute;
   border: 1px solid gray;
   display: none;
+  margin-top: 0.2rem; 
+  background-color: white;
 
 
 }
@@ -334,4 +353,75 @@ position: absolute;
 
 
 
+
+
+
+
+/* -------header css finished---- */
+
+
+.category-container{
+ display: flex;
+ justify-content: center; 
+ height: 7.5rem;
+ overflow: hidden;
+ background-color: #F9F9F9;
+
+
+}
+
+.category-box{
+  
+  width:10rem; 
+ 
+}
+
+.cat-item{
+  width:10rem;
+  padding: 1.4rem 0;
+   text-align: center;
+   transition: 0.3s;
+
+  }
+
+.cat-item .cat-label{
+margin-top: 1rem;
+  
+  
+  
+}
+
+.cat-item .cat-links{
+ margin-top: 2rem; 
+ display: flex;
+flex-direction: column;
+transition: 0.1s;
+    
+  
+}
+.cat-item .cat-links a{
+ margin: 0.5rem 0;
+ 
+    
+  
+}
+
+
+.category-box:hover .cat-item{
+   transform: translatey(-55px);
+   
+}
+
+.cat-item:hover .cat-links{
+  margin-top: 0;
+}
+
+
+.category-box:hover p{
+ 
+  margin-top:0;
+  
+  
+   
+}
 

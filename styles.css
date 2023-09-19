@@ -13,7 +13,7 @@ html,body{
   height: 100%;
 }
 
-body{
+body{ 
   position: relative;
 }
 :root {
@@ -1111,9 +1111,224 @@ p,
   font-size: 1.2rem;
 }
  
-
-
-
-
+ 
 
 }
+
+
+
+
+/* ************ sign in page css *********** */
+
+.sign-in-container{
+  width: 100%;
+  height: 850px;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.sign-in-left-container,.sign-in-right-container{
+  width: 50%;
+  height: 100%;
+}
+
+.sign-in-left-container{
+  
+  background-color:#FFFFFF;
+   
+  
+}
+
+.sign-in-right-container{
+  background-color: #F5F6F7;
+}
+
+.logo-container{
+  padding: 15px 5px;
+}
+.logo-container img{
+  width: 245px;
+}
+
+.sign-center{
+  text-align: center;
+}
+
+.sing-ing-heading{
+  margin:40px 0px;
+}
+.sing-ing-heading h1{
+font-weight:50;
+font-size: 2.5rem;
+color: #0E0E0E;
+}
+
+.sign-in-size{
+  width: 450px;
+  height: 50px;
+ 
+}
+.google-sing-in {
+display: flex;
+justify-content: center; 
+}
+.gp-sign-in-btn{
+  display: flex  ;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: transparent;
+  border: 1px solid #767676;
+  cursor: pointer;
+
+}
+
+.sing-in-form{ 
+  display: flex; 
+ align-items: center;
+ flex-direction: column;
+ margin: 40px 0px;
+}
+
+
+.email-input,.pass-input{
+border: 1px solid #636363; 
+}
+
+.email-input input{
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding:0px 15px;
+  
+}
+ .pass-input{
+  display: flex;
+  justify-content: space-between;
+  
+ }
+ .pass-input input{
+  width: 90%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding:0px 15px;
+ }
+
+ .hide-icon img{
+  padding: 15px 10px;
+ }
+
+ .sing-in-btn{
+  background-color: #0672CB;
+  border: none;
+  color: white;
+ 
+  
+ }
+
+ .create-link{
+padding: 0px 10px;
+margin-bottom: 20px;
+
+ }
+ .sign-in-m{
+margin-bottom: 20px;
+ }
+
+
+ .f-link{
+  text-decoration: none;
+  color: #0063b8;
+ }
+ .otp-btn{
+  background: transparent;
+  border: 1px solid #0063b8;
+  color: #0672CB;
+  font-weight: 600;
+ }
+
+ .sign-in-dell-account{
+  margin-top: 115px;
+  text-align: center;
+ }
+ .sign-in-dell-account h1{
+  font-weight: 100;
+  font-size: 2.5rem;
+  color: #0E0E0E;
+ }
+
+ .sign-in-box-container{
+  display: flex;
+  
+ }
+
+ .signin-box{ 
+   width: 300px;
+   height: 150px;
+   text-align: center;
+   padding: 10px; 
+ 
+ }
+
+ .signin-box .i-size{
+  font-size: 2.2rem;
+  margin: 10px 0px;
+  color: #767676;
+ }
+ 
+
+ .signin-box .sign-in-title
+ {
+ margin-bottom: 15px;
+ }
+
+ .signin-box .dis{
+  color: #767676;
+ line-height: 1.6;
+ }
+
+
+ .laptop-img{ 
+  margin: 30px 0px;
+  text-align: center;
+  padding: 60px 0px;
+ }
+ .laptop-img img{
+  width: 400px;
+ }
+
+
+ .footer-sign-in .ft-top{
+  background-color: #EEEEEE;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   padding-left: 100px;
+ }
+ .footer-sign-in .ft-top a{
+ text-decoration: none;
+ color: #444444;
+ margin: 0px 10px;
+
+ }
+
+ .footer-sign-in .ft-bottom{
+  background-color:#444444;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+ }
+
+ .footer-sign-in .ft-bottom a{
+  text-decoration: none;
+  color: #fff;
+  margin: 0px 13px;
+  font-size: 0.8rem;
+ 
+  }

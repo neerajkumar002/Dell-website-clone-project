@@ -1,0 +1,193 @@
+.cart-container {
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* hide elemenet  */
+  .top-res-h-l-menu {
+    display: none;
+  }
+  
+  .search-bar-res{
+    display: none;
+  }
+  
+
+
+  /* ------------------- */
+
+.cart-section{ 
+    width: 100%;
+}
+.cart-left{
+
+    width: 68%;
+    border: 1px solid red;
+    padding: 10px 50px 10px 80px;
+}
+.cart-right{
+    width: 40%;
+    border: 1px solid green;
+}
+.item-header-lable{   
+    border-bottom: 1px solid gray;
+    
+}
+
+.item-container .cart-item-img {
+    width:250px;
+    height:500px;
+    padding: 10px;  
+}
+.item-container .cart-item-img  img{
+  width: 100%;  
+
+}
+
+
+
+.item-header-lable .item-lable{
+    padding-right: 25rem; 
+}
+.item-header-lable .quantity-lable{
+    padding-right: 8rem; 
+}
+.item-header-lable .price-lable{
+    width: 9.1rem;  
+    text-align: right;
+}
+
+.cart-item-details{
+  width: 100%;
+  height: 100px; 
+  padding: 20px 10px;   
+}
+
+ 
+.cart-item-details .item-name {     
+  font-size: 1.2rem;
+  width: 214px;
+ 
+}
+.cart-item-details .item-name a{  
+  text-decoration: none;
+  color: black;
+}
+
+.item-inc-dec{ 
+  height: 30px;  
+  width: 150px;
+   
+}
+
+ 
+.item-inc-dec button{
+  font-size: 1.2rem;
+  background: transparent;
+  border: none;
+  font-weight: 600; 
+  width:30px;
+  height: 30px;
+  color: blue;
+ 
+
+}
+.item-inc-dec button:hover{
+   background-color: #D9F5FD;
+   border: 1px solid blue;
+}
+
+.item-inc-dec input{
+    width: 60px;
+  height: 30px;
+  outline-color: blue; 
+  margin: 0 5px;
+  
+  
+}
+
+.item-price-section{ 
+ width: 209px; 
+}
+
+.item-price-section #offer-price{
+font-size:0.9rem;
+text-align: right;
+padding-bottom: 5px;
+}
+.item-price-section #discount-price{
+  color: #4F7D00;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-align: right;
+  padding-bottom: 5px;
+}
+.item-price-section #total-price{ 
+  font-weight: bolder;
+  padding-bottom: 5px;
+  font-size: 1.1rem;
+  text-align: right;
+}
+
+.cart-right{
+  padding:1rem 1.3rem ;
+}
+
+.coupon-code-container{
+ 
+  border-top: 1px solid rgba(128, 128, 128, 0.685);  
+  border-bottom: 1px solid rgba(128, 128, 128, 0.685);
+  padding: 1rem 0;
+
+}
+.coupon-code-container div{
+  width: 100%;
+}
+.coupon-code-container .coupon-title{ 
+ padding: 0.5rem 0;  
+}
+
+ 
+
+.coupon-code-container .coupon-code-input {
+  padding: 0.5rem 0;
+}
+.coupon-code-container .coupon-code-input input{
+ width: 16rem;
+ height: 35px;
+}
+.coupon-code-container .coupon-code-input button{
+  height: 35px;
+ width: 8.2rem;
+}
+.coupon-code-container .help-line {
+ line-height: 24px;
+}
+.coupon-code-container .help-line a{
+text-decoration: none;
+color: blue;
+}
+
+.item-summary{
+  padding: 0.5rem 0;
+  border-bottom: 1px solid gray;
+}
+.item-summary .item-row{
+display: flex;
+justify-content: space-between;
+padding: 0.2rem 0;
+}
+.checkout-btn{
+  padding: 0.2rem 0;
+
+}
+.checkout-btn button{
+  width: 100%;
+  height: 40px;
+  background-color: #4F7D00;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.1rem;
+}
